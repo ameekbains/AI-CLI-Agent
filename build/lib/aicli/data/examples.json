@@ -1,0 +1,870 @@
+[
+  {
+    "prompt": "Set git user name to Alice",
+    "command": "git config user.name \"Alice\""
+  },
+  {
+    "prompt": "Configure git user email to alice@example.com",
+    "command": "git config user.email \"alice@example.com\""
+  },
+  {
+    "prompt": "Set git user name to Alice and email to alice@example.com",
+    "command": "git config user.name \"Alice\" && git config user.email \"alice@example.com\""
+  },
+  {
+    "prompt": "Set git user name to Bob",
+    "command": "git config user.name \"Bob\""
+  },
+  {
+    "prompt": "Configure git user email to bob@example.com",
+    "command": "git config user.email \"bob@example.com\""
+  },
+  {
+    "prompt": "Set git user name to Bob and email to bob@example.com",
+    "command": "git config user.name \"Bob\" && git config user.email \"bob@example.com\""
+  },
+  {
+    "prompt": "Set git user name to Carol",
+    "command": "git config user.name \"Carol\""
+  },
+  {
+    "prompt": "Configure git user email to carol@example.com",
+    "command": "git config user.email \"carol@example.com\""
+  },
+  {
+    "prompt": "Set git user name to Carol and email to carol@example.com",
+    "command": "git config user.name \"Carol\" && git config user.email \"carol@example.com\""
+  },
+  {
+    "prompt": "Set git user name to Dave",
+    "command": "git config user.name \"Dave\""
+  },
+  {
+    "prompt": "Configure git user email to dave@example.com",
+    "command": "git config user.email \"dave@example.com\""
+  },
+  {
+    "prompt": "Set git user name to Dave and email to dave@example.com",
+    "command": "git config user.name \"Dave\" && git config user.email \"dave@example.com\""
+  },
+  {
+    "prompt": "Set git user name to Eve",
+    "command": "git config user.name \"Eve\""
+  },
+  {
+    "prompt": "Configure git user email to eve@example.com",
+    "command": "git config user.email \"eve@example.com\""
+  },
+  {
+    "prompt": "Set git user name to Eve and email to eve@example.com",
+    "command": "git config user.name \"Eve\" && git config user.email \"eve@example.com\""
+  },
+  {
+    "prompt": "Create a new Git repository",
+    "command": "git init"
+  },
+  {
+    "prompt": "Initialize a new git repo",
+    "command": "git init"
+  },
+  {
+    "prompt": "Clone repository https://github.com/user/repo.git",
+    "command": "git clone https://github.com/user/repo.git"
+  },
+  {
+    "prompt": "Clone repository https://github.com/user/repo.git into directory project",
+    "command": "git clone https://github.com/user/repo.git project"
+  },
+  {
+    "prompt": "Clone repository git@github.com:user/repo.git",
+    "command": "git clone git@github.com:user/repo.git"
+  },
+  {
+    "prompt": "Clone repository git@github.com:user/repo.git into directory project",
+    "command": "git clone git@github.com:user/repo.git project"
+  },
+  {
+    "prompt": "Clone repository https://gitlab.com/user/project.git",
+    "command": "git clone https://gitlab.com/user/project.git"
+  },
+  {
+    "prompt": "Clone repository https://gitlab.com/user/project.git into directory project",
+    "command": "git clone https://gitlab.com/user/project.git project"
+  },
+  {
+    "prompt": "Add all files to staging",
+    "command": "git add ."
+  },
+  {
+    "prompt": "Stage all changes",
+    "command": "git add ."
+  },
+  {
+    "prompt": "Add file README.md",
+    "command": "git add README.md"
+  },
+  {
+    "prompt": "Add files src/main.py and src/utils.py",
+    "command": "git add src/main.py src/utils.py"
+  },
+  {
+    "prompt": "Add directory src",
+    "command": "git add src"
+  },
+  {
+    "prompt": "Stage all files under directory src",
+    "command": "git add src"
+  },
+  {
+    "prompt": "Commit with message initial commit",
+    "command": "git commit -m \"initial commit\""
+  },
+  {
+    "prompt": "Commit changes with message update docs",
+    "command": "git commit -m \"update docs\""
+  },
+  {
+    "prompt": "Commit staged changes with message fix bug #123",
+    "command": "git commit -m \"fix bug #123\""
+  },
+  {
+    "prompt": "Commit all staged changes with message add feature",
+    "command": "git commit -m \"add feature\""
+  },
+  {
+    "prompt": "Amend last commit message to updated description",
+    "command": "git commit --amend -m \"updated description\""
+  },
+  {
+    "prompt": "Commit and push with message update readme",
+    "command": "git commit -m \"update readme\" && git push"
+  },
+  {
+    "prompt": "Stage all changes and commit with message update docs",
+    "command": "git add . && git commit -m \"update docs\""
+  },
+  {
+    "prompt": "Stage all and commit with message fix bug",
+    "command": "git add . && git commit -m \"fix bug\""
+  },
+  {
+    "prompt": "Stage all changes and commit with message update docs then push",
+    "command": "git add . && git commit -m \"update docs\" && git push"
+  },
+  {
+    "prompt": "Commit all staged changes and push to origin main",
+    "command": "git commit -m \"commit\" && git push origin main"
+  },
+  {
+    "prompt": "Push commits to remote",
+    "command": "git push"
+  },
+  {
+    "prompt": "Push to origin main",
+    "command": "git push origin main"
+  },
+  {
+    "prompt": "Push to origin master",
+    "command": "git push origin master"
+  },
+  {
+    "prompt": "Push to origin develop",
+    "command": "git push origin develop"
+  },
+  {
+    "prompt": "Push tags to remote",
+    "command": "git push --tags"
+  },
+  {
+    "prompt": "Pull latest changes",
+    "command": "git pull"
+  },
+  {
+    "prompt": "Pull from origin main",
+    "command": "git pull origin main"
+  },
+  {
+    "prompt": "Pull and rebase",
+    "command": "git pull --rebase"
+  },
+  {
+    "prompt": "Fetch all remotes",
+    "command": "git fetch --all"
+  },
+  {
+    "prompt": "Fetch origin",
+    "command": "git fetch origin"
+  },
+  {
+    "prompt": "Checkout branch feature",
+    "command": "git checkout feature"
+  },
+  {
+    "prompt": "Switch to branch develop",
+    "command": "git checkout develop"
+  },
+  {
+    "prompt": "Create and switch to new branch feature",
+    "command": "git checkout -b feature"
+  },
+  {
+    "prompt": "Create branch feature off develop",
+    "command": "git checkout -b feature develop"
+  },
+  {
+    "prompt": "List all branches",
+    "command": "git branch"
+  },
+  {
+    "prompt": "List branches with verbose info",
+    "command": "git branch -vv"
+  },
+  {
+    "prompt": "Delete branch feature",
+    "command": "git branch -d feature"
+  },
+  {
+    "prompt": "Delete branch feature force",
+    "command": "git branch -D feature"
+  },
+  {
+    "prompt": "Rename current branch to main",
+    "command": "git branch -m main"
+  },
+  {
+    "prompt": "Merge branch feature into current branch",
+    "command": "git merge feature"
+  },
+  {
+    "prompt": "Rebase onto develop",
+    "command": "git rebase develop"
+  },
+  {
+    "prompt": "Rebase feature onto develop",
+    "command": "git checkout feature && git rebase develop"
+  },
+  {
+    "prompt": "Abort merge",
+    "command": "git merge --abort"
+  },
+  {
+    "prompt": "Continue rebase",
+    "command": "git rebase --continue"
+  },
+  {
+    "prompt": "Resolve merge conflicts by aborting rebase",
+    "command": "git rebase --abort"
+  },
+  {
+    "prompt": "Stash current changes",
+    "command": "git stash"
+  },
+  {
+    "prompt": "Stash including untracked files",
+    "command": "git stash -u"
+  },
+  {
+    "prompt": "List stashes",
+    "command": "git stash list"
+  },
+  {
+    "prompt": "Apply latest stash",
+    "command": "git stash apply"
+  },
+  {
+    "prompt": "Apply stash 0 and drop it",
+    "command": "git stash pop stash@{0}"
+  },
+  {
+    "prompt": "Drop stash 1",
+    "command": "git stash drop stash@{1}"
+  },
+  {
+    "prompt": "Show status",
+    "command": "git status"
+  },
+  {
+    "prompt": "View git status",
+    "command": "git status"
+  },
+  {
+    "prompt": "See what files changed",
+    "command": "git status"
+  },
+  {
+    "prompt": "Show commit log",
+    "command": "git log"
+  },
+  {
+    "prompt": "Show log on one line",
+    "command": "git log --oneline"
+  },
+  {
+    "prompt": "Show log graph",
+    "command": "git log --graph --oneline --decorate --all"
+  },
+  {
+    "prompt": "Show last 5 commits",
+    "command": "git log -5"
+  },
+  {
+    "prompt": "Show commit history for file src/main.py",
+    "command": "git log -- src/main.py"
+  },
+  {
+    "prompt": "Show changes in last commit",
+    "command": "git show"
+  },
+  {
+    "prompt": "Show changes between two commits abc123 and def456",
+    "command": "git diff abc123..def456"
+  },
+  {
+    "prompt": "Show diff of working tree",
+    "command": "git diff"
+  },
+  {
+    "prompt": "Show diff of staged changes",
+    "command": "git diff --cached"
+  },
+  {
+    "prompt": "Discard local changes in file src/app.js",
+    "command": "git checkout -- src/app.js"
+  },
+  {
+    "prompt": "Reset file src/app.js to last commit",
+    "command": "git reset HEAD src/app.js"
+  },
+  {
+    "prompt": "Reset staging area but keep changes",
+    "command": "git reset"
+  },
+  {
+    "prompt": "Reset working directory to last commit and discard changes",
+    "command": "git reset --hard"
+  },
+  {
+    "prompt": "Create lightweight tag v1.0",
+    "command": "git tag v1.0"
+  },
+  {
+    "prompt": "Create annotated tag v1.0 with message release",
+    "command": "git tag -a v1.0 -m \"release\""
+  },
+  {
+    "prompt": "List tags",
+    "command": "git tag"
+  },
+  {
+    "prompt": "Delete tag v1.0",
+    "command": "git tag -d v1.0"
+  },
+  {
+    "prompt": "Push tags",
+    "command": "git push --tags"
+  },
+  {
+    "prompt": "Checkout tag v1.0",
+    "command": "git checkout v1.0"
+  },
+  {
+    "prompt": "Add remote origin https://github.com/user/repo.git",
+    "command": "git remote add origin https://github.com/user/repo.git"
+  },
+  {
+    "prompt": "Show remotes",
+    "command": "git remote -v"
+  },
+  {
+    "prompt": "Remove remote origin",
+    "command": "git remote remove origin"
+  },
+  {
+    "prompt": "Rename remote origin to upstream",
+    "command": "git remote rename origin upstream"
+  },
+  {
+    "prompt": "Fetch remote origin and prune",
+    "command": "git fetch --prune origin"
+  },
+  {
+    "prompt": "Push current branch and set upstream to origin",
+    "command": "git push -u origin $(git rev-parse --abbrev-ref HEAD)"
+  },
+  {
+    "prompt": "Add submodule https://github.com/user/sub.git in folder vendor/sub",
+    "command": "git submodule add https://github.com/user/sub.git vendor/sub"
+  },
+  {
+    "prompt": "Update submodules",
+    "command": "git submodule update --init --recursive"
+  },
+  {
+    "prompt": "Remove file src/old.js from git and working tree",
+    "command": "git rm src/old.js"
+  },
+  {
+    "prompt": "Remove file src/old.js from staging but keep file",
+    "command": "git rm --cached src/old.js"
+  },
+  {
+    "prompt": "Move file old.txt to new.txt",
+    "command": "git mv old.txt new.txt"
+  },
+  {
+    "prompt": "Check who changed src/utils.py last",
+    "command": "git blame src/utils.py"
+  },
+  {
+    "prompt": "Find commits that introduced bug in file src/app.js",
+    "command": "git bisect start && git bisect bad && git bisect good <good_commit>"
+  },
+  {
+    "prompt": "Search in git history for text TODO",
+    "command": "git log -S 'TODO'"
+  },
+  {
+    "prompt": "Search working tree for TODO",
+    "command": "grep -R 'TODO' ."
+  },
+  {
+    "prompt": "Search source for function my_func",
+    "command": "grep -R 'my_func' src/"
+  },
+  {
+    "prompt": "Find file foo.txt under src",
+    "command": "find src -name foo.txt"
+  },
+  {
+    "prompt": "List files in current directory",
+    "command": "ls"
+  },
+  {
+    "prompt": "List all files including hidden",
+    "command": "ls -a"
+  },
+  {
+    "prompt": "List long format of files",
+    "command": "ls -l"
+  },
+  {
+    "prompt": "List files sorted by modification time",
+    "command": "ls -lt"
+  },
+  {
+    "prompt": "List all processes",
+    "command": "ps aux"
+  },
+  {
+    "prompt": "Find process using port 8080",
+    "command": "lsof -i :8080"
+  },
+  {
+    "prompt": "Show disk usage in human format",
+    "command": "du -sh *"
+  },
+  {
+    "prompt": "Show free disk space",
+    "command": "df -h"
+  },
+  {
+    "prompt": "Show current directory",
+    "command": "pwd"
+  },
+  {
+    "prompt": "Change directory to src",
+    "command": "cd src"
+  },
+  {
+    "prompt": "Create directory build",
+    "command": "mkdir build"
+  },
+  {
+    "prompt": "Remove directory build",
+    "command": "rm -rf build"
+  },
+  {
+    "prompt": "Copy file a.txt to b.txt",
+    "command": "cp a.txt b.txt"
+  },
+  {
+    "prompt": "Move file a.txt to dir/",
+    "command": "mv a.txt dir/"
+  },
+  {
+    "prompt": "Count lines in file foo.txt",
+    "command": "wc -l foo.txt"
+  },
+  {
+    "prompt": "Display first 10 lines of file foo.txt",
+    "command": "head foo.txt"
+  },
+  {
+    "prompt": "Display last 20 lines of file foo.txt",
+    "command": "tail -n 20 foo.txt"
+  },
+  {
+    "prompt": "Show environment variables",
+    "command": "env"
+  },
+  {
+    "prompt": "Set environment variable FOO to bar",
+    "command": "export FOO=bar"
+  },
+  {
+    "prompt": "Remove environment variable FOO",
+    "command": "unset FOO"
+  },
+  {
+    "prompt": "Show current date and time",
+    "command": "date"
+  },
+  {
+    "prompt": "Sleep for 5 seconds",
+    "command": "sleep 5"
+  },
+  {
+    "prompt": "Archive directory src into tar.gz",
+    "command": "tar -czf src.tar.gz src"
+  },
+  {
+    "prompt": "Extract archive src.tar.gz",
+    "command": "tar -xzf src.tar.gz"
+  },
+  {
+    "prompt": "Compress file big.txt with gzip",
+    "command": "gzip big.txt"
+  },
+  {
+    "prompt": "Decompress file big.txt.gz",
+    "command": "gunzip big.txt.gz"
+  },
+  {
+    "prompt": "Show current user",
+    "command": "whoami"
+  },
+  {
+    "prompt": "Show current working directory",
+    "command": "pwd"
+  },
+  {
+    "prompt": "Change permissions of file script.sh to executable",
+    "command": "chmod +x script.sh"
+  },
+  {
+    "prompt": "Search logs directory for ERROR",
+    "command": "grep -R 'ERROR' logs/"
+  },
+  {
+    "prompt": "Search recursively for TODO in project",
+    "command": "grep -R 'TODO' ."
+  },
+  {
+    "prompt": "Find files larger than 100MB",
+    "command": "find . -type f -size +100M"
+  },
+  {
+    "prompt": "Find empty directories",
+    "command": "find . -type d -empty"
+  },
+  {
+    "prompt": "Check Python version",
+    "command": "python --version"
+  },
+  {
+    "prompt": "Install package requests using pip",
+    "command": "pip install requests"
+  },
+  {
+    "prompt": "Upgrade package numpy",
+    "command": "pip install --upgrade numpy"
+  },
+  {
+    "prompt": "List installed pip packages",
+    "command": "pip list"
+  },
+  {
+    "prompt": "Search pip for package flask",
+    "command": "pip search flask"
+  },
+  {
+    "prompt": "Remove package requests",
+    "command": "pip uninstall requests"
+  },
+  {
+    "prompt": "Create Python virtual environment env",
+    "command": "python -m venv env"
+  },
+  {
+    "prompt": "Activate Python virtual environment env",
+    "command": "source env/bin/activate"
+  },
+  {
+    "prompt": "Deactivate Python virtual environment",
+    "command": "deactivate"
+  },
+  {
+    "prompt": "Install package cowsay via apt",
+    "command": "sudo apt-get install cowsay"
+  },
+  {
+    "prompt": "Update apt package index",
+    "command": "sudo apt-get update"
+  },
+  {
+    "prompt": "Upgrade all packages via apt",
+    "command": "sudo apt-get upgrade"
+  },
+  {
+    "prompt": "Remove package cowsay via apt",
+    "command": "sudo apt-get remove cowsay"
+  },
+  {
+    "prompt": "Show listening ports",
+    "command": "netstat -tulpn"
+  },
+  {
+    "prompt": "Show open network connections",
+    "command": "netstat -an"
+  },
+  {
+    "prompt": "Check if port 80 is open",
+    "command": "nc -zv localhost 80"
+  },
+  {
+    "prompt": "Ping google.com",
+    "command": "ping -c 4 google.com"
+  },
+  {
+    "prompt": "Show running Docker containers",
+    "command": "docker ps"
+  },
+  {
+    "prompt": "List Docker images",
+    "command": "docker images"
+  },
+  {
+    "prompt": "Build Docker image with tag myapp",
+    "command": "docker build -t myapp ."
+  },
+  {
+    "prompt": "Run Docker container from image myapp",
+    "command": "docker run myapp"
+  },
+  {
+    "prompt": "Run Docker container myapp and map port 8080 to 80",
+    "command": "docker run -p 8080:80 myapp"
+  },
+  {
+    "prompt": "Stop Docker container myapp",
+    "command": "docker stop myapp"
+  },
+  {
+    "prompt": "Remove Docker container myapp",
+    "command": "docker rm myapp"
+  },
+  {
+    "prompt": "Remove Docker image myapp",
+    "command": "docker rmi myapp"
+  },
+  {
+    "prompt": "Show docker container logs for myapp",
+    "command": "docker logs myapp"
+  },
+  {
+    "prompt": "Prune unused Docker resources",
+    "command": "docker system prune -f"
+  },
+  {
+    "prompt": "Login to Docker registry docker.io",
+    "command": "docker login docker.io"
+  },
+  {
+    "prompt": "Logout from Docker registry docker.io",
+    "command": "docker logout docker.io"
+  },
+  {
+    "prompt": "Tag Docker image myapp as user/myapp:latest",
+    "command": "docker tag myapp user/myapp:latest"
+  },
+  {
+    "prompt": "Push Docker image user/myapp:latest",
+    "command": "docker push user/myapp:latest"
+  },
+  {
+    "prompt": "Pull Docker image ubuntu:latest",
+    "command": "docker pull ubuntu:latest"
+  },
+  {
+    "prompt": "Start Docker compose services",
+    "command": "docker-compose up"
+  },
+  {
+    "prompt": "Start Docker compose services in detached mode",
+    "command": "docker-compose up -d"
+  },
+  {
+    "prompt": "Stop Docker compose services",
+    "command": "docker-compose down"
+  },
+  {
+    "prompt": "Rebuild Docker compose services",
+    "command": "docker-compose build"
+  },
+  {
+    "prompt": "Execute bash in running container myapp",
+    "command": "docker exec -it myapp bash"
+  },
+  {
+    "prompt": "Create zip archive of src directory",
+    "command": "zip -r src.zip src"
+  },
+  {
+    "prompt": "Unzip archive src.zip",
+    "command": "unzip src.zip"
+  },
+  {
+    "prompt": "Create symlink link.txt to file target.txt",
+    "command": "ln -s target.txt link.txt"
+  },
+  {
+    "prompt": "Remove file link.txt",
+    "command": "rm link.txt"
+  },
+  {
+    "prompt": "List environment variables sorted",
+    "command": "printenv | sort"
+  },
+  {
+    "prompt": "Show first 100 lines of file log.txt",
+    "command": "head -n 100 log.txt"
+  },
+  {
+    "prompt": "Show last 50 lines of file log.txt",
+    "command": "tail -n 50 log.txt"
+  },
+  {
+    "prompt": "Find files modified in last 24 hours",
+    "command": "find . -type f -mtime -1"
+  },
+  {
+    "prompt": "Sort file data.txt numerically",
+    "command": "sort -n data.txt"
+  },
+  {
+    "prompt": "Sort file data.txt in reverse order",
+    "command": "sort -r data.txt"
+  },
+  {
+    "prompt": "Count words in file document.txt",
+    "command": "wc -w document.txt"
+  },
+  {
+    "prompt": "Replace foo with bar in file text.txt",
+    "command": "sed -i 's/foo/bar/g' text.txt"
+  },
+  {
+    "prompt": "Extract column 1 from data.csv",
+    "command": "cut -d, -f1 data.csv"
+  },
+  {
+    "prompt": "Show unique lines in file list.txt",
+    "command": "sort list.txt | uniq"
+  },
+  {
+    "prompt": "Monitor file changes in log.txt",
+    "command": "tail -f log.txt"
+  },
+  {
+    "prompt": "Generate SSH key",
+    "command": "ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\""
+  },
+  {
+    "prompt": "Add SSH key to ssh-agent",
+    "command": "eval \"$(ssh-agent -s)\" && ssh-add ~/.ssh/id_rsa"
+  },
+  {
+    "prompt": "Test SSH connection to github.com",
+    "command": "ssh -T git@github.com"
+  },
+  {
+    "prompt": "Show current git configuration",
+    "command": "git config --list"
+  },
+  {
+    "prompt": "Unset git user email",
+    "command": "git config --unset user.email"
+  },
+  {
+    "prompt": "Unset git user name",
+    "command": "git config --unset user.name"
+  },
+  {
+    "prompt": "List files changed between two branches main and develop",
+    "command": "git diff --name-only main..develop"
+  },
+  {
+    "prompt": "View details of remote branches",
+    "command": "git remote show origin"
+  },
+  {
+    "prompt": "Show difference between staged and working tree",
+    "command": "git diff"
+  },
+  {
+    "prompt": "Search commit messages for 'fix bug'",
+    "command": "git log --grep='fix bug'"
+  },
+  {
+    "prompt": "List aliases configured in git",
+    "command": "git config --get-regexp '^alias'"
+  },
+  {
+    "prompt": "Define git alias st for status",
+    "command": "git config --global alias.st status"
+  },
+  {
+    "prompt": "Remove git alias st",
+    "command": "git config --global --unset alias.st"
+  },
+  {
+    "prompt": "Stage all modified files only",
+    "command": "git add -u"
+  },
+  {
+    "prompt": "Stage new files only",
+    "command": "git add -N ."
+  },
+  {
+    "prompt": "Stage all files under src directory",
+    "command": "git add src"
+  },
+  {
+    "prompt": "Commit and push to origin main with message update",
+    "command": "git commit -m \"update\" && git push origin main"
+  },
+  {
+    "prompt": "Publish current branch to remote repository",
+    "command": "git push -u origin $(git rev-parse --abbrev-ref HEAD)"
+  },
+  {
+    "prompt": "Add only files with .txt extension",
+    "command": "git add '*.txt'"
+  },
+  {
+    "prompt": "Create new repository and push to GitHub",
+    "command": "git init && git remote add origin <url> && git add . && git commit -m \"initial commit\" && git push -u origin main"
+  },
+  {
+    "prompt": "Show staged changes",
+    "command": "git diff --cached"
+  },
+  {
+    "prompt": "Stage all changed files except deleted files",
+    "command": "git add --no-all ."
+  },
+  {
+    "prompt": "Push tags to remote",
+    "command": "git push --tags"
+  }
+]

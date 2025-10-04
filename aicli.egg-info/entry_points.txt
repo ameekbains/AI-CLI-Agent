@@ -1,0 +1,2 @@
+[console_scripts]
+ai = aicli.cli:main

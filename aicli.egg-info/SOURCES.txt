@@ -1,0 +1,15 @@
+setup.py
+aicli/__init__.py
+aicli/cli.py
+aicli/providers.py
+aicli/state.py
+aicli/training.py
+aicli/validator.py
+aicli.egg-info/PKG-INFO
+aicli.egg-info/SOURCES.txt
+aicli.egg-info/dependency_links.txt
+aicli.egg-info/entry_points.txt
+aicli.egg-info/requires.txt
+aicli.egg-info/top_level.txt
+aicli/data/__init__.py
+aicli/data/examples.json

@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: aicli
+Version: 0.1.0
+Summary: AI-powered CLI tool translating natural language to shell/Git commands
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: click>=7.0
+Requires-Dist: PyYAML>=5.4
+Requires-Dist: fastapi>=0.80
+Requires-Dist: uvicorn>=0.20
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
