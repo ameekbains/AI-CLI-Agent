@@ -1,24 +1,24 @@
-# 🧠 AI CLI Agent
+# AI CLI Agent
 
 The **AI CLI Agent** lets you run Git and Bash commands from natural language prompts.  
 It supports **local models** (Ollama, LM Studio) or a **built-in dataset** of 500+ Git/Bash examples.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🚀 **Natural language → safe shell commands**
-- 📚 **500+ built-in heuristic examples** (Git + Bash)
-- 🤖 **Local model support**: [Ollama](https://ollama.ai), [LM Studio](https://lmstudio.ai)
-- 🔒 **Command validation** (rejects unsafe/dangerous commands)
-- 📝 **Interactive editing** before execution
-- 📜 **History & replay** of previous sessions
-- 🛡 **Safe mode** requiring explicit confirmation
-- 🌐 **MCP/HTTP server** for integration with editors & tools
+-  **Natural language → safe shell commands**
+-  **500+ built-in heuristic examples** (Git + Bash)
+-  **Local model support**: [Ollama](https://ollama.ai), [LM Studio](https://lmstudio.ai)
+-  **Command validation** (rejects unsafe/dangerous commands)
+-  **Interactive editing** before execution
+-  **History & replay** of previous sessions
+-  **Safe mode** requiring explicit confirmation
+-  **MCP/HTTP server** for integration with editors & tools
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### 1. Extract or Clone
 ```bash
@@ -79,7 +79,7 @@ ai configure   # provider=lmstudio, model=your_model_name
 
 # Run a command
 ai run "Check current git status"
-🕑 History & Replay
+ History & Replay
 Show your command history:
 ai history
 Sample output:
@@ -89,12 +89,12 @@ Sample output:
 Replay a command by index:
 ai !3
 (re-runs the 3rd command in your history)
-🧩 Safe Mode
+ Safe Mode
 Enable safe mode for extra protection:
 ai configure
 When safe mode is active, you must confirm explicitly with --yes:
 ai run "Delete temp files" --yes
-🌐 Running as a Server
+ Running as a Server
 Start the agent as an MCP/HTTP server:
 ai serve
 Exposes a /generate endpoint:
